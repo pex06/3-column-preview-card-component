@@ -22,7 +22,7 @@ body {
 
 .card {
   width: 260px;
-  height: 350px;
+  height: 390px;
   padding: 2em;
 }
 
@@ -75,7 +75,7 @@ body {
 
 .card__button {
   padding: 1.05em 1.6em;
-  margin-top: 3em;
+  margin-top: 6em;
   border: none;
   border-radius: 20px;
 }
@@ -95,7 +95,7 @@ body {
 @media screen and (min-width: 768px) {
   body {
     height: 100vh;
-    margin: 0;
+    margin: 1em;
     overflow: hidden;
     flex-direction: row;
     justify-content: center;
@@ -103,7 +103,7 @@ body {
   }
 
   .card {
-    height: 400px;
+    height: 460px;
   }
 
   .card-1 {
@@ -115,6 +115,6 @@ body {
   }
 
   .card__button {
-    margin-top: 6em;
+    margin-top: 11em;
   }
 }
