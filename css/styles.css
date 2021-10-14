@@ -13,11 +13,20 @@
 }
 
 body {
+  position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  min-height: 100vh;
   margin: 2.5em 0.5em;
   font-family: "Lexend Deca", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
 }
 
 .card {
@@ -92,14 +101,27 @@ body {
   color: var(--very-dark-cyan);
 }
 
+.attribution {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2em;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution__link {
+  color: hsl(228, 45%, 44%);
+}
+
 @media screen and (min-width: 768px) {
   body {
-    height: 100vh;
-    margin: 1em;
+    margin: 0;
     overflow: hidden;
+  }
+
+  main {
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 0;
   }
 
   .card {
@@ -116,5 +138,9 @@ body {
 
   .card__button {
     margin-top: 11em;
+  }
+
+  .attribution {
+    bottom: 1em;
   }
 }
