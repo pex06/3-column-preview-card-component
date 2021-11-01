@@ -27,7 +27,11 @@ body {
   font-family: "Lexend Deca", sans-serif;
 }
 
-main {
+.hidden-content {
+  display: none;
+}
+
+.main {
   margin-bottom: 2em;
 }
 
@@ -111,6 +115,7 @@ main {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution__link {
   color: hsl(228, 45%, 44%);
 }
