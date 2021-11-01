@@ -22,7 +22,6 @@ body {
 }
 
 body,
-.main,
 .cards {
   display: flex;
   flex-direction: column;
