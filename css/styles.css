@@ -12,12 +12,6 @@
   box-sizing: border-box;
 }
 
-body,
-main {
-  display: flex;
-  flex-direction: column;
-}
-
 body {
   position: relative;
   justify-content: center;
@@ -25,6 +19,13 @@ body {
   min-height: 100vh;
   margin: 2.5em 0.5em;
   font-family: "Lexend Deca", sans-serif;
+}
+
+body,
+.main,
+.cards {
+  display: flex;
+  flex-direction: column;
 }
 
 .hidden-content {
@@ -126,7 +127,7 @@ body {
     overflow: hidden;
   }
 
-  main {
+  .cards {
     flex-direction: row;
     margin-bottom: 0;
   }
